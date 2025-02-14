@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 from pathlib import Path
 from typing import List, Tuple
@@ -88,15 +90,14 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  %(prog)s                     # Show tree of current directory
   %(prog)s /path/to/dir        # Show tree of specific directory
-  %(prog)s -d 2               # Limit depth to 2 levels
-  %(prog)s -a                 # Show hidden files and directories
+  %(prog)s /path/to/dir -d 2   # Limit depth to 2 levels
+  %(prog)s /path/to/dir -a     # Show hidden files and directories
         """
     )
     
-    parser.add_argument('path', nargs='?', default='.',
-                      help='Directory path to start from (default: current directory)')
+    parser.add_argument('path',
+                      help='Directory path to display tree for')
     parser.add_argument('-d', '--max-depth', type=int,
                       help='Maximum depth of directory tree to display')
     parser.add_argument('-a', '--all', action='store_true',

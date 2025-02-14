@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+dirtree/__init__.py
+dirtree/cli.py
+dirtree.egg-info/PKG-INFO
+dirtree.egg-info/SOURCES.txt
+dirtree.egg-info/dependency_links.txt
+dirtree.egg-info/entry_points.txt
+dirtree.egg-info/top_level.txt
+tests/test.py
