@@ -3,7 +3,7 @@
 Task List
 - [ ] Update README with installation, usage, etc.
 - [ ] Write unit tests
-- [ ] 
+- [ ] Update CLI to require user input for directory instead of leaving path to '' 
 - [ ] 
 - [ ] 
 
