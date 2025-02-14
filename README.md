@@ -1,4 +1,4 @@
-# Python Repo template
+# dirtree: a CLI util for printing a directory tree
 
 Task List
 - [ ] Update README with installation, usage, etc.
