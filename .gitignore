@@ -1,2 +1,4 @@
-build/
+bild/
 dirtree.egg-info
+test-report
+*.xml

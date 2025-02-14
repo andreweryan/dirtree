@@ -1,2 +1,0 @@
-[console_scripts]
-dirtree = dirtree.cli:main
