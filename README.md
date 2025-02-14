@@ -3,7 +3,7 @@
 Task List
 - [ ] Update README with installation, usage, etc.
 - [ ] Write unit tests
-- [ ] Update CLI to require user input for directory instead of leaving path to '' 
+- [ ] Update CLI to require user input for directory instead of leaving path to empty
 - [ ] 
 - [ ] 
 
@@ -14,17 +14,18 @@ Task List
 
 Package import usage:
 ```python
-from package.main import test_function
-test_function()
+from dirtree import print_tree
+path = "directory_path"
+print_tree(path)
 
 ```
 
 CLI usage:
 ```
-usage: package [-h] --arg ARG
+usage: dirtree --arg ARG
 
 optional arguments:
   -h, --help            show this help message and exit
 ```
 
-Example: `package --arg`
+Example: `dirtree --arg`
